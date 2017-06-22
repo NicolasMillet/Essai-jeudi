@@ -1,0 +1,63 @@
+
+header {
+  text-align: center;
+  border-radius: 30px;
+  background: linear-gradient(90deg, blue, red);
+border : 10px groove Magenta; }
+.dropdown {
+  position: relative;
+  display: inline-block;
+  background-color: grey;
+  margin-left: 40px;
+  padding: 30px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  padding: 10px;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+section {
+
+  border-radius: 10px;
+}
+h1 {
+  color: rgba(0,0,128,0.5);
+  font-family: Verdana;
+  font-size: 80px;
+  text-shadow: 12px 12px 12px rgb(44, 49, 53);
+  padding: 30px;
+}
+section img {
+  height: 200px;
+  border-radius: 10px;
+}
+section img:hover {
+  width: 500px;
+height: auto; }
+.images img {
+  margin: 20px;
+}
+.images {
+  margin-top:30px;
+  background-color: Cornsilk;
+  border : 10px groove LightCoral;
+  border-radius:20px;
+  transition-property: background-color;
+  transition-duration: 3s;
+  transition-timing-function: ease;
+}
+.images:hover {
+  background-color: DarkGoldenrod;
+}
+
+body {
+  background-color: DarkGrey;
+}
+h2 {
+  color: rgba(0,0,128,0.5);
+  text-shadow: 12px 12px 12px rgb(0,0,128);
+}
